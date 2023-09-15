@@ -6,10 +6,10 @@ if [ -z "$APP_DOMAIN" ]; then
   APP_DOMAIN="localhost"
 fi
 
-read -p "Please set a port for the frontend server [default: 80]: " CLIENT_PORT
+read -p "Please set a port for the frontend server [default: 8080]: " CLIENT_PORT
 
 if [ -z "$CLIENT_PORT" ]; then
-  CLIENT_PORT="80"
+  CLIENT_PORT="8080"
 fi
 
 read -p "Please set a port for the backend server [default: 9000]: " SERVER_PORT
