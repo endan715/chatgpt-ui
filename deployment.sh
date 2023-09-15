@@ -76,7 +76,7 @@ echo "Downloading configuration files..."
 
 # if docker-compose.yml doesn't exist, download it
 if [ ! -f "docker-compose.yml" ]; then
-    sudo curl -L "https://raw.githubusercontent.com/WongSaang/chatgpt-ui/main/docker-compose.yml" -o docker-compose.yml
+    sudo curl -L "https://raw.githubusercontent.com/endan715/chatgpt-ui/dev/docker-compose.yml" -o docker-compose.yml
 fi
 
 echo "Starting services..."
