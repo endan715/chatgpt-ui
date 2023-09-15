@@ -7,19 +7,19 @@ import {
   } from './configs/index.js'
 
 export default defineUserConfig({
-  title: 'ChatGPT UI',
-  description: 'A ChatGPT web client',
+  title: 'Toolbox',
+  description: 'A useful toolbox',
   base: '/chatgpt-ui/',
   locales: {
     // 键名是该语言所属的子路径
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
       lang: 'en-US',
-      description: 'A ChatGPT web client',
+      description: 'A useful toolbox',
     },
     '/zh/': {
       lang: 'zh-CN',
-      description: '一个 ChatGPT 的 Web 客户端',
+      description: '一个有用的工具箱',
     },
   },
   theme: defaultTheme({
