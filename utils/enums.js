@@ -43,4 +43,4 @@ export const MODELS = {
   }
 }
 
-export const DEFAULT_MODEL_NAME = 'gpt-3.5-turbo'
+export const DEFAULT_MODEL_NAME = 'gpt-4'
