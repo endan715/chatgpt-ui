@@ -11,8 +11,8 @@ export const MODELS = {
     presence_penalty: 0.0,
     total_tokens: 4096,
     max_tokens: 1000,
-    temperature: 0.7,
-    top_p: 1.0
+    temperature: 0.3,
+    top_p: 0.2
   },
   'gpt-3.5-turbo-16k': {
     name: 'gpt-3.5-16k',
@@ -20,8 +20,8 @@ export const MODELS = {
     presence_penalty: 0.0,
     total_tokens: 16384,
     max_tokens: 4000,
-    temperature: 0.7,
-    top_p: 1.0
+    temperature: 0.3,
+    top_p: 0.2
   },
   'gpt-4-32k': {
     name: 'gpt-4-32k',
@@ -29,8 +29,8 @@ export const MODELS = {
     presence_penalty: 0.0,
     total_tokens: 32768,
     max_tokens: 8000,
-    temperature: 0.7,
-    top_p: 1.0
+    temperature: 0.3,
+    top_p: 0.2
   },
   'gpt-4': {
     name: 'gpt-4',
@@ -38,8 +38,8 @@ export const MODELS = {
     presence_penalty: 0.0,
     total_tokens: 8192,
     max_tokens: 2000,
-    temperature: 0.7,
-    top_p: 1.0
+    temperature: 0.3,
+    top_p: 0.2
   }
 }
 
