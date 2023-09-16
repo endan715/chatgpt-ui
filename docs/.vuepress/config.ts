@@ -7,7 +7,7 @@ import {
   } from './configs/index.js'
 
 export default defineUserConfig({
-  title: 'Toolbox',
+  title: 'Toolbox UI',
   description: 'A useful toolbox',
   base: '/chatgpt-ui/',
   locales: {
