@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-const appName = process.env.NUXT_PUBLIC_APP_NAME ?? 'ChatGPT UI'
+const appName = process.env.NUXT_PUBLIC_APP_NAME ?? 'Toolbox UI'
 export default defineNuxtConfig({
     debug: process.env.NODE_ENV !== 'production',
     ssr: process.env.SSR !== 'false',
@@ -33,7 +33,7 @@ export default defineNuxtConfig({
         manifest: {
             name: appName,
             short_name: appName,
-            description: 'A ChatGPT web Client'
+            description: 'Toolbox web client'
         },
         workbox: {
             enabled: process.env.DEBUT_PWA === 'true',
