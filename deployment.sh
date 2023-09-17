@@ -79,6 +79,8 @@ if [ ! -f "docker-compose.yml" ]; then
     sudo curl -L "https://raw.githubusercontent.com/endan715/chatgpt-ui/dev/docker-compose.yml" -o docker-compose.yml
 fi
 
+sudo curl -L "https://raw.githubusercontent.com/endan715/chatgpt-ui/dev/update-toolbox-ui-container.sh" -o update-toolbox-ui-container.sh
+
 echo "Starting services..."
 
 touch ./db.sqlite3
