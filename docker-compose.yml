@@ -12,7 +12,7 @@ services:
     depends_on:
       - backend-web-server
     ports:
-      - '${CLIENT_PORT:-8080}:80'
+      - '127.0.0.1:${CLIENT_PORT:-8080}:80'
     networks:
       - chatgpt_ui_network
     restart: always
@@ -39,7 +39,7 @@ services:
     volumes:
       - ./db.sqlite3:/app/db.sqlite3
     ports:
-      - '${WSGI_PORT:-8000}:8000'
+      - '127.0.0.1:${WSGI_PORT:-8000}:8000'
     networks:
       - chatgpt_ui_network
     restart: always
@@ -49,7 +49,7 @@ services:
     environment:
       - BACKEND_URL=http://backend-wsgi-server:8000
     ports:
-      - '${SERVER_PORT:-9000}:80'
+      - '127.0.0.1:${SERVER_PORT:-9000}:80'
     depends_on:
       - backend-wsgi-server
     networks:
