@@ -23,15 +23,15 @@ export const MODELS = {
     temperature: 0.3,
     top_p: 0.2
   },
-  // 'gpt-4-32k': {
-  //   name: 'gpt-4-32k',
-  //   frequency_penalty: 0.0,
-  //   presence_penalty: 0.0,
-  //   total_tokens: 32768,
-  //   max_tokens: 8000,
-  //   temperature: 0.3,
-  //   top_p: 0.2
-  // },
+  'gpt-4-32k': {
+    name: 'gpt-4-32k',
+    frequency_penalty: 0.0,
+    presence_penalty: 0.0,
+    total_tokens: 32768,
+    max_tokens: 8000,
+    temperature: 0.3,
+    top_p: 0.2
+  },
   'gpt-4': {
     name: 'gpt-4',
     frequency_penalty: 0.0,
