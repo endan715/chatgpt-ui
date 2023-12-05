@@ -40,7 +40,16 @@ export const MODELS = {
     max_tokens: 2000,
     temperature: 0.3,
     top_p: 0.2
-  }
+  },
+  'gpt-4-1106-preview': {
+    name: 'gpt-4-1106-preview',
+    frequency_penalty: 0.0,
+    presence_penalty: 0.0,
+    total_tokens: 32768,
+    max_tokens: 8000,
+    temperature: 0.3,
+    top_p: 0.2
+  },
 }
 
-export const DEFAULT_MODEL_NAME = 'gpt-4'
+export const DEFAULT_MODEL_NAME = 'gpt-4-1106-preview'
