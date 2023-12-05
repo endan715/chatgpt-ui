@@ -1,4 +1,4 @@
-FROM node:18-alpine3.16 as builder
+FROM node:18-alpine3.18 as builder
 
 WORKDIR /app
 
@@ -11,7 +11,7 @@ COPY . .
 RUN yarn build
 
 
-FROM node:18-alpine3.16
+FROM node:18-alpine3.18
 
 ENV NITRO_PORT=80
 
